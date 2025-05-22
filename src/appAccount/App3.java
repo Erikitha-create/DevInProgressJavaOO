@@ -5,6 +5,7 @@ public class App3 {
 
         Account a = new Account();
         a.deposit(1000);
+        a.deposit("500");
 
         Account b = new Account();
         b.deposit(100);

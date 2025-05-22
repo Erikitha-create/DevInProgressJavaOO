@@ -14,6 +14,10 @@ public class Account {
        return false;
     }
 
+    boolean deposit(String amount) {
+        return deposit(Double.parseDouble(amount));
+    }
+
     boolean deposit(double amount) {
         if (amount > 0) {
             balance += amount;
